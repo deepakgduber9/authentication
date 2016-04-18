@@ -1,0 +1,4 @@
+<%= form_tag({:controller=>"mailer", :action=>"show"}, method: :get) do %>
+  <%= text_field_tag :id %>
+  <%= submit_tag 'Send Mail', name: nil %>
+<% end %>

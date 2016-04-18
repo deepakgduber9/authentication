@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'mailer/show'
+  get 'mailer/index'
+
   resources :tests
   devise_for :users
   # get "/tests/mail" => "tests#mail"
